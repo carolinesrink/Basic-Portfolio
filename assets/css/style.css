@@ -21,6 +21,7 @@
     text-align: right;
     width: 100%;
     z-index: 1;
+    padding-right: 123px;
 }
 
 a {
@@ -34,7 +35,7 @@ body {
 
 .box {
     background-color:#ffffff;
-    height: 450px;
+    height: 460px;
     margin: 120px;
     padding: 50px;
 }
@@ -77,6 +78,12 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+hr {
+    color:#dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -159,7 +166,7 @@ img {
     color:#dddddd;
     background-color:#4aaaa5;
     padding: 15px 109px;
-    margin-top: 690px;
+    margin-top: 695px;
 }
 
 #img2 {
