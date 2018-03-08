@@ -8,8 +8,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color:#dddddd;
-    border-bottom: #cccccc;
-    border-bottom-style: 10px;
     z-index: 2;
 
 }
@@ -20,7 +18,6 @@
     position: fixed;
     top: 0;
     right: 0;
-    margin-right: 10%;
     text-align: right;
     width: 100%;
     z-index: 1;
@@ -44,7 +41,7 @@ body {
 
 .box2 {
     background-color:#ffffff;
-    height: 1000px;
+    height: 825px;
     margin: 120px;
     padding: 50px;
 }
@@ -60,12 +57,12 @@ body {
 }
 
 textarea {
-    width: 850px;
+    width: 930px;
     height: 300px;
 }
 
 input[type=text] {
-    width: 850px;
+    width: 930px;
 }
 
 input[type=submit] {
@@ -80,8 +77,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     margin-bottom: 10px;
-    border-bottom: #cccccc;
-    border-bottom-width: 60%;
 }
 
 p {
@@ -90,37 +85,105 @@ p {
 
 img {
     height: 300px;
-    width: 420px;
-    margin-right: 10px;
+    width: 400px;
+    margin-right: 18px;
     float: left;
 }
 
 #img1 {
-    width: 300px;
-    margin-right: 25%;
+    width: 350px;
+    height: 220px;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.caption1 {
+    position: relative;
+}
+
+.caption1 span {
+    position: absolute;
+    left: 0px;
+    color:#dddddd;
+    background-color:#4aaaa5;
+    padding: 15px 144px;
+    margin-top: 164px;
+}
+
+.caption2 {
+    position: relative;
+}
+
+.caption2 span {
+    position: absolute;
+    right: 158px;
+    color:#dddddd;
+    background-color:#4aaaa5;
+    padding: 15px 139px;
+    margin-top: 164px;
+}
+
+.caption3 {
+    position: relative;
+}
+
+.caption3 span {
+    position: absolute;
+    right: 605px;
+    color:#dddddd;
+    background-color:#4aaaa5;
+    padding: 15px 134px;
+    margin-top: 430px;
+}
+
+.caption4 {
+    position: relative;
+}
+
+.caption4 span {
+    position: absolute;
+    right: 158px;
+    color:#dddddd;
+    background-color:#4aaaa5;
+    padding: 15px 110px;
+    margin-top: 430px;
+}
+
+.caption5 {
+    position: relative;
+}
+
+.caption5 span {
+    position: absolute;
+    right: 605px;
+    color:#dddddd;
+    background-color:#4aaaa5;
+    padding: 15px 109px;
+    margin-top: 690px;
 }
 
 #img2 {
-    width: 230px;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
 }
 
 #img3 {
-    width: 300px;
-    margin-right: 20%;
+    width: 350px;
+    height: 220px;
+    margin-right: 10%;
+    margin-block-end: 5%;
 }
 
 #img4 {
-    width: 300px;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
 }
 
 #img5 {
-    width: 230px;
-    margin-right: 24%;
-    margin-left: 5%;
-}
-
-#img6 {
-    width: 300px;
+    width: 350px;
+    height: 220px;
 }
 
 .paragraph {
@@ -138,8 +201,8 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    border-color: #4aaaa5;
-    border-width: 10px;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
 }
 
 .clearfix:after {
