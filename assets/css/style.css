@@ -1,6 +1,6 @@
 #head {
     background-color:#4aaaa5;
-    padding: 30px;
+    padding: 23px;
     position: fixed;
     top: 0;
     float: left;
@@ -10,37 +10,52 @@
     color:#dddddd;
     border-bottom: #cccccc;
     border-bottom-style: 10px;
+    z-index: 2;
 
 }
 
 .container {
     background-color:#dddddd;
+    padding: 30px;
     position: fixed;
     top: 0;
     right: 0;
+    margin-right: 10%;
+    text-align: right;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
 }
 
-.topnav {
-    padding: 30px;
+a {
+    color:#777777;
 }
 
 body {
+    background: url(../images/circles-light.png) no-repeat fixed;
+    background-repeat: repeat;
+}
+
+.box {
+    background-color:#ffffff;
     margin: 120px;
-    padding: 20px;
-    background-color: #ffffff;
-    background-image: url(images/circles-light.png);
+    padding: 100px;
 }
 
 #form {
     color:#777777;
 }
 
+input[type=submit] {
+    background-color: #4aaaa5;
+}
+
 h2 {
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: #cccccc;
+    border-bottom-width: 60%;
 }
 
 img {
@@ -49,9 +64,38 @@ img {
     float: left;
 }
 
+#img1 {
+    width: 300px;
+    margin-right: 25%;
+}
+
+#img2 {
+    width: 230px;
+}
+
+#img3 {
+    width: 300px;
+    margin-right: 20%;
+}
+
+#img4 {
+    width: 300px;
+}
+
+#img5 {
+    width: 230px;
+    margin-right: 24%;
+    margin-left: 5%;
+}
+
+#img6 {
+    width: 300px;
+}
+
 .paragraph {
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
 }
 
 footer {
