@@ -1,0 +1,74 @@
+#head {
+    background-color:#4aaaa5;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    float: left;
+    margin-left: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#dddddd;
+    border-bottom: #cccccc;
+    border-bottom-style: 10px;
+
+}
+
+.container {
+    background-color:#dddddd;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.topnav {
+    padding: 30px;
+}
+
+body {
+    margin: 120px;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url(images/circles-light.png);
+}
+
+#form {
+    color:#777777;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+img {
+    height: 300px;
+    width: 420px;
+    float: left;
+}
+
+.paragraph {
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:#666666;
+    text-align: center;
+    color:#dddddd;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-color: #4aaaa5;
+    border-width: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
